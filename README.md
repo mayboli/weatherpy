@@ -1,5 +1,7 @@
 # weatherpy
 
+Tools: CitiPy, Pandas, Numpy, Matplotlib
+
 The goal of this project is to prove that cities around the equator are hotter than cities near the poles.
 
 In order to avoid bias in choosing cities around the world, I have generated random numbers for latitudes and longitudes and used CitiPy to find cities that match/closely resemble them. After collecting all the cities, I used Open Weather Map's API to retrieve data regarding these cities. 
